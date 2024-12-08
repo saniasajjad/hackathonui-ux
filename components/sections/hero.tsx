@@ -7,7 +7,7 @@ function HeroSection() {
       description:
         "Ease of doing a car rental safely and reliably. Of course at a low price.",
       buttonText: "Rent Car",
-      imageUrl: "/images/car_1.png",
+      imageUrl: "/images/1.png",
       backgroundColor: "information-500",
       buttonBg: "primary-dark-500",
     },
@@ -16,7 +16,7 @@ function HeroSection() {
       description:
         "Providing cheap bike rental services and safe and comfortable facilities.",
       buttonText: "Rent Bike",
-      imageUrl: "/images/car_2.png",
+      imageUrl: "/images/1.png",
       backgroundColor: "primary-dark-500",
       buttonBg: "information-500",
     },
