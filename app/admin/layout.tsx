@@ -11,7 +11,7 @@ import Navabar from "@/components/navbar"
 
 interface SidebarItem {
   href: string
-  icon: LucideIcon
+  icon: any
   text: string
 }
 

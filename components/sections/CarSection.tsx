@@ -29,7 +29,7 @@ function CarSection({
         }}
         className="grid gap-4  max-md:justify-items-center"
       >
-        {cars.map((car) => (
+        {cars.map((car: any) => (
           <CarCard key={car.id} {...car} />
         ))}
       </div>
