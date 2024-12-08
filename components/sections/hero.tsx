@@ -16,7 +16,7 @@ function HeroSection() {
       description:
         "Providing cheap bike rental services and safe and comfortable facilities.",
       buttonText: "Rent Bike",
-      imageUrl: "/images/1.png",
+      imageUrl: "/images/2.png",
       backgroundColor: "primary-dark-500",
       buttonBg: "information-500",
     },
