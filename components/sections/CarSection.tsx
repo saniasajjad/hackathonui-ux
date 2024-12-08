@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CarCard from "../CarCard";
 
 import ViewAll from "../ViewAll";
@@ -36,7 +37,10 @@ function CarSection({
       {showMoreButton && (
         <div className="flex justify-center py-6 mt-10">
           <button className="py-4 px-6 text-center  bg-[color:var(--primary-dark-500)] text-[color:var(--white)] rounded-md font-bold hover:bg-[color:var(--primary-dark-600)] duration-300 ease-in-out hover:shadow-2xl ">
+            <Link href={"/car-category"}>
             Show more car
+
+            </Link>
           </button>
         </div>
       )}
